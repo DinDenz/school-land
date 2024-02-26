@@ -1,4 +1,5 @@
 import React from "react";
+import Main from './../src/components/Main/Main';
 
 function App() {
   return (
@@ -6,9 +7,7 @@ function App() {
       <header className="header">
         Hello. This is the header
       </header>
-      <main className='main'>
-        this is the main
-      </main>
+      <Main />
       <footer className='footer'>
         this is the footer
       </footer>
