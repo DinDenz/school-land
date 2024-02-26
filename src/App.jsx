@@ -1,7 +1,7 @@
 import React from "react";
 import Main from './../src/components/Main/Main';
 import Footer from "./components/Footer/Footer";
-import TopSectionHeader from "./components/Header/TopSectionHeader";
+import TopSectionHeader from "./components/TopSectionHeader/TopSectionHeader";
 
 function App() {
   return (

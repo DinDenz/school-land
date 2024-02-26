@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    background-color: #292c47;
+}
+.header-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 40px 20px;
+    width: 100%;
+}
+.header-row {
+    display: flex;
+}
+.header-left {
+flex: 1 1 30%;
+}
+.header-right {
+flex: 1 1 70%;
+display: flex;
+justify-content: flex-end;
+}
+
+.links-list li {
+    display: inline-block;
+}
+.links-list li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.links-list a {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
