@@ -1,4 +1,5 @@
 .main {
     font-size: 2rem;
-    color:red;
+    color: green;
+    flex: 1 1 auto;
 }

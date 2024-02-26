@@ -44,3 +44,30 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	user-select: none; */
   }
   /*--------------------------------------------------------------*/
+  .app-wrapper {
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	width: 100%;
+	margin:0 auto;
+	padding: 0 15px;
+}
+@media screen and (min-width: 1200px) {
+	.container {
+    max-width: 1170px;
+}
+}
+@media screen and (min-width: 992px) {
+	.container {
+    max-width: 970px;
+}
+}
+@media screen and (min-width: 768px) {
+	.container {
+    max-width: 750px;
+}
+}
