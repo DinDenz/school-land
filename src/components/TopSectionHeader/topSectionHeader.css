@@ -1,0 +1,10 @@
+.top-section {
+    background-image: url('./../../images/pianist1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header/Header';
+import './topSectionHeader.css';
 
 export default function TopSectionHeader() {
   return (
